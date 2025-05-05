@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>AKASH M J </h1>
+                <p>Web Developer & Designer</p>
+                <a href="public/M J AKASH CV.pdf" class="btn download-cv"><i class="fas fa-download"></i> Download CV</a>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/akash-m-j-388318258" target="_blank">
+                      <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Akash22mj" target="_blank">
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/akash_mj45" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="https://mail.google.com/mail/?view=cm&to=mjakash2212@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                      </a>
+                      
+                      
+                  </div>
+                  
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="public/AkashImage.gif" alt="Profile Photo">
+                </div>
+                <div class="about-text">
+                    <p>Hello! I'm Akash M J, a passionate web developer and designer, eager to start my professional journey in the world of web development. As a recent graduate, I have honed my skills in creating responsive, user-friendly websites and applications through my academic projects and personal learning.
+
+                        I specialize in front-end development, working with technologies like HTML, CSS, JavaScript, and React. I also have a growing interest in back-end development, particularly with Node.js and Express, and I'm always excited to learn and explore new tools and frameworks.</p>
+                    <p>While I may be new to the industry, I bring a fresh perspective, a strong commitment to learning, and a passion for building seamless digital experiences. I am excited about the opportunity to work on real-world projects, solve complex problems, and contribute to creating intuitive and innovative web applications.
+
+                        If you’re looking for a passionate and eager developer to collaborate with, feel free to reach out!</p>
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn">Get In Touch</a>
+                        <a href="public/M J AKASH CV.pdf" class="btn download-cv"><i class="fas fa-download"></i> Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3>Front-End</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span>HTML/CSS</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>React</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Back-End</h3>
+                    <div class="skill-bars">
+                        <div class="skill">
+                            <span>Node.js</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Express</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>MongoDB</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">My Work</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="other">Other Projects</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="/api/placeholder/400/300" alt="Project 1">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Online Marketplace for Local Artisans</h3>
+                        <p><h3>Description:</h3> This platform allows local artisans to showcase and sell their handmade products to a wider audience. It supports product customization, secure payments through Stripe, and customer reviews. The system includes a live chat feature for communication between buyers and sellers using Socket.io for real-time messaging. Admins have the ability to approve or reject products, and the platform also includes order management and tracking.</p>
+                        <p>Technologies Used: React.js, Node.js, MongoDB, Stripe, Socket.io, JavaScript</p>
+                        <p>Role: Full-stack Developer (Frontend, Backend, Real-time Chat, Payment Integration)</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-img">
+                        <img src="/api/placeholder/400/300" alt="Project 2">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3> Hotel Reservation System</h3>
+                        <p><h3>Description:</h3> The Hotel Management System is a comprehensive web application that allows hotel staff to manage bookings, reservations, room assignments, customer details, and payments. The system provides a user-friendly interface for both customers and hotel staff to ensure smooth operations and efficient service. Customers can check room availability, book rooms, and view their reservations, while hotel staff can update availability, process check-ins and check-outs, and generate invoices. This system streamlines the entire process, reducing errors and improving customer satisfaction.</p>
+                        <p>Technologies Used: HTML, CSS, JavaScript, PHP, MySQL</p>
+                        <p>Role: Full-stack Developer (Frontend, Backend, Database)</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-img">
+                        <img src="/api/placeholder/400/300" alt="Project 3">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Blood Bank Management System (MERN Stack)</h3>
+                        <p><h3>Description:</h3>The Blood Bank Management System is a web-based application designed to manage the blood donation and blood storage process in hospitals. The system facilitates blood donation, storage, and distribution to patients in need. Donors can register, donate blood, and track their donation history, while hospitals can manage blood inventory and requests efficiently. The application ensures real-time updates and transparency, allowing both donors and hospitals to maintain an accurate record of blood donations and stock availability.</p>
+                        <p>Technologies Used: MongoDB, Express.js, React.js, Node.js (MERN Stack), JWT (for authentication), Bootstrap (for styling)</p>
+                        <p>Role: Full-stack Developer (Frontend, Backend, Database Integration)</p>
+                        <div class="portfolio-links">
+                            <a href="#"><i class="fas fa-link"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Senior Web Developer</h3>
+                        <h4>TechCorp Inc. | 2022 - Present</h4>
+                        <p>Led a team of 5 developers in creating enterprise-level web applications. Implemented modern frameworks and improved code efficiency by 30%.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Full-Stack Developer</h3>
+                        <h4>WebSolutions | 2019 - 2022</h4>
+                        <p>Developed and maintained multiple client websites. Created custom CMS solutions and e-commerce platforms.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Junior Developer</h3>
+                        <h4>CreativeTech | 2017 - 2019</h4>
+                        <p>Assisted senior developers in front-end development tasks. Gained experience in responsive design and JavaScript frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"An exceptional developer who delivered our project ahead of schedule. The attention to detail and problem-solving abilities were impressive."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/80/80" alt="Client">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechStartup</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"Working with this developer was a pleasure. Communication was clear, and the final product exceeded our expectations."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/80/80" alt="Client">
+                        <div>
+                            <h4>Michael Brown</h4>
+                            <p>Marketing Director, BrandCo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>New York City, NY</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>yourname@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple portfolio filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    portfolioItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
