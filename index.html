@@ -3,172 +3,377 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
+    <title>Akash M J | Web Developer & Designer</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
+    <!-- Navigation -->
+    <nav class="navbar">
         <div class="container">
-            <div class="header-content">
-                <h1>AKASH M J </h1>
-                <p>Web Developer & Designer</p>
-                <a href="public/M J AKASH CV.pdf" class="btn download-cv"><i class="fas fa-download"></i> Download CV</a>
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/akash-m-j-388318258" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/Akash22mj" target="_blank">
-                      <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://instagram.com/akash_mj45" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                      </a>
-                      <a href="https://mail.google.com/mail/?view=cm&to=mjakash2212@gmail.com" target="_blank">
-                        <i class="fas fa-envelope"></i>
-                      </a>
-                      
-                      
-                  </div>
-                  
+            <div class="logo">
+                <a href="#">AM<span>J</span></a>
             </div>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>AKASH <span>M J</span></h1>
+                    <h2>Web Developer & Designer</h2>
+                    <p>Creating extraordinary digital experiences through innovative web solutions</p>
+                    <div class="hero-buttons">
+                        <a href="public/M J AKASH CV.pdf" class="btn primary-btn"><i class="fas fa-download"></i> Download CV</a>
+                        <a href="#contact" class="btn secondary-btn">Let's Talk</a>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/akash-m-j-388318258" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Akash22mj" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com/akash_mj45" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&to=mjakash2212@gmail.com" target="_blank" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-shape">
+                    <div class="circle"></div>
+                    <div class="shape-1"></div>
+                    <div class="shape-2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="section">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <div class="section-heading">
+                <h6>Who Am I</h6>
+                <h2>About Me</h2>
+            </div>
             <div class="about-content">
                 <div class="about-image">
-                    <img src="public/AkashImage.gif" alt="Profile Photo">
+                    <div class="image-wrapper">
+                        <img src="public/AkashImage.gif" alt="Profile Photo">
+                        <div class="experience-badge">
+                            <span></span>
+                            <p>Fresher</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="about-text">
-                    <p>Hello! I'm Akash M J, a passionate web developer and designer, eager to start my professional journey in the world of web development. As a recent graduate, I have honed my skills in creating responsive, user-friendly websites and applications through my academic projects and personal learning.
+                    <h3>Building Digital Solutions That Make A Difference</h3>
+                    <p>Hello! I'm <span class="highlight">Akash M J</span>, a passionate web developer and designer, eager to start my professional journey in the world of web development. As a recent graduate, I have honed my skills in creating responsive, user-friendly websites and applications through my academic projects and personal learning.</p>
+                    
+                    <p>I specialize in front-end development, working with technologies like HTML, CSS, JavaScript, and React. I also have a growing interest in back-end development, particularly with Node.js and Express, and I'm always excited to learn and explore new tools and frameworks.</p>
+                    
+                    <p>While I may be new to the industry, I bring a fresh perspective, a strong commitment to learning, and a passion for building seamless digital experiences. I am excited about the opportunity to work on real-world projects, solve complex problems, and contribute to creating intuitive and innovative web applications.</p>
 
-                        I specialize in front-end development, working with technologies like HTML, CSS, JavaScript, and React. I also have a growing interest in back-end development, particularly with Node.js and Express, and I'm always excited to learn and explore new tools and frameworks.</p>
-                    <p>While I may be new to the industry, I bring a fresh perspective, a strong commitment to learning, and a passion for building seamless digital experiences. I am excited about the opportunity to work on real-world projects, solve complex problems, and contribute to creating intuitive and innovative web applications.
-
-                        If you’re looking for a passionate and eager developer to collaborate with, feel free to reach out!</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <h5>Name:</h5>
+                            <p>Akash M J</p>
+                        </div>
+                        <div class="info-item">
+                            <h5>Email:</h5>
+                            <p>mjakash2212@gmail.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h5>Speciality:</h5>
+                            <p>Full Stack Development</p>
+                        </div>
+                        <div class="info-item">
+                            <h5>Availability:</h5>
+                            <p>Open for opportunities</p>
+                        </div>
+                    </div>
+                    
                     <div class="about-buttons">
-                        <a href="#contact" class="btn">Get In Touch</a>
-                        <a href="public/M J AKASH CV.pdf" class="btn download-cv"><i class="fas fa-download"></i> Download CV</a>
+                        <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                        <a href="public/M J AKASH CV.pdf" class="btn outline-btn"><i class="fas fa-download"></i> Download CV</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section><br><br>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <section id="skills" class="section gray-bg">
         <div class="container">
-            <h2 class="section-title">My Skills</h2>
-            <div class="skills-content">
+            <div class="section-heading">
+                <h6>My Expertise</h6>
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-wrapper">
                 <div class="skill-category">
-                    <h3>Front-End</h3>
-                    <div class="skill-bars">
-                        <div class="skill">
-                            <span>HTML/CSS</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 95%"></div>
+                    <h3>Front-End Technologies</h3>
+                    <div class="skills-container">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4>HTML/CSS</h4>
+                            <div class="skill-progress">
+                                <div class="progress-fill" style="width: 95%">
+                                    <span>95%</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="skill">
-                            <span>JavaScript</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 90%"></div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-progress">
+                                <div class="progress-fill" style="width: 90%">
+                                    <span>90%</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="skill">
-                            <span>React</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 85%"></div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h4>React</h4>
+                            <div class="skill-progress">
+                                <div class="progress-fill" style="width: 85%">
+                                    <span>85%</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h3>Back-End</h3>
-                    <div class="skill-bars">
-                        <div class="skill">
-                            <span>Node.js</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 80%"></div>
+                    <h3>Back-End Technologies</h3>
+                    <div class="skills-container">
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+                            </div>
+                            <h4>Node.js</h4>
+                            <div class="skill-progress">
+                                <div class="progress-fill" style="width: 80%">
+                                    <span>80%</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="skill">
-                            <span>Express</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 75%"></div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-server"></i>
+                            </div>
+                            <h4>Express</h4>
+                            <div class="skill-progress">
+                                <div class="progress-fill" style="width: 75%">
+                                    <span>75%</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="skill">
-                            <span>MongoDB</span>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 70%"></div>
+                        <div class="skill-card">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>MongoDB</h4>
+                            <div class="skill-progress">
+                                <div class="progress-fill" style="width: 70%">
+                                    <span>70%</span>
+                                </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Additional Skills</h3>
+                    <div class="skills-container">
+                        <div class="skill-pill">Automation Testing (Basic)</div>
+                        <div class="skill-pill">Responsive Design</div>
+                        <div class="skill-pill">Git & GitHub</div>
+                        <div class="skill-pill">Angular 19 (Basic)</div>
+                        <div class="skill-pill">Web Development</div>
+                        <div class="skill-pill">Java</div>
+                        <div class="skill-pill">jQuery</div>
+                        <div class="skill-pill">Bootstrap</div>
+                        <div class="skill-pill">Tailwind CSS</div>
+                        
+                      
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section><br>
 
     <!-- Portfolio Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="section">
         <div class="container">
-            <h2 class="section-title">My Work</h2>
+            <div class="section-heading">
+                <h6>My Recent Work</h6>
+                <h2>Portfolio Projects</h2>
+            </div>
             <div class="portfolio-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn active" data-filter="all">All Projects</button>
                 <button class="filter-btn" data-filter="web">Web Design</button>
                 <button class="filter-btn" data-filter="app">App Development</button>
                 <button class="filter-btn" data-filter="other">Other Projects</button>
             </div>
             <div class="portfolio-grid">
                 <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-img">
-                        <img src="/api/placeholder/400/300" alt="Project 1">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Online Marketplace for Local Artisans</h3>
-                        <p><h3>Description:</h3> This platform allows local artisans to showcase and sell their handmade products to a wider audience. It supports product customization, secure payments through Stripe, and customer reviews. The system includes a live chat feature for communication between buyers and sellers using Socket.io for real-time messaging. Admins have the ability to approve or reject products, and the platform also includes order management and tracking.</p>
-                        <p>Technologies Used: React.js, Node.js, MongoDB, Stripe, Socket.io, JavaScript</p>
-                        <p>Role: Full-stack Developer (Frontend, Backend, Real-time Chat, Payment Integration)</p>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fas fa-link"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="public/nline MarketPlace.png" alt="Project 1">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="project-category">Web Development</span>
+                            <h3>Online Marketplace for Local Artisans</h3>
+                            <p>A platform connecting local artisans with customers, featuring product customization, secure payments, and real-time chat.</p>
+                            <div class="tech-stack">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Socket.io</span>
+                            </div>
+                            <a href="#" class="btn small-btn">View Details</a>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-item" data-category="app">
-                    <div class="portfolio-img">
-                        <img src="/api/placeholder/400/300" alt="Project 2">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3> Hotel Reservation System</h3>
-                        <p><h3>Description:</h3> The Hotel Management System is a comprehensive web application that allows hotel staff to manage bookings, reservations, room assignments, customer details, and payments. The system provides a user-friendly interface for both customers and hotel staff to ensure smooth operations and efficient service. Customers can check room availability, book rooms, and view their reservations, while hotel staff can update availability, process check-ins and check-outs, and generate invoices. This system streamlines the entire process, reducing errors and improving customer satisfaction.</p>
-                        <p>Technologies Used: HTML, CSS, JavaScript, PHP, MySQL</p>
-                        <p>Role: Full-stack Developer (Frontend, Backend, Database)</p>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fas fa-link"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="public/Hotel Management.png" alt="Project 2">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="project-category">Full Stack Development</span>
+                            <h3>Hotel Reservation System</h3>
+                            <p>A comprehensive web application that manages bookings, reservations, room assignments, and payments for hotels.</p>
+                            <div class="tech-stack">
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                            <a href="#" class="btn small-btn">View Details</a>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-item" data-category="web">
-                    <div class="portfolio-img">
-                        <img src="/api/placeholder/400/300" alt="Project 3">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>Blood Bank Management System (MERN Stack)</h3>
-                        <p><h3>Description:</h3>The Blood Bank Management System is a web-based application designed to manage the blood donation and blood storage process in hospitals. The system facilitates blood donation, storage, and distribution to patients in need. Donors can register, donate blood, and track their donation history, while hospitals can manage blood inventory and requests efficiently. The application ensures real-time updates and transparency, allowing both donors and hospitals to maintain an accurate record of blood donations and stock availability.</p>
-                        <p>Technologies Used: MongoDB, Express.js, React.js, Node.js (MERN Stack), JWT (for authentication), Bootstrap (for styling)</p>
-                        <p>Role: Full-stack Developer (Frontend, Backend, Database Integration)</p>
-                        <div class="portfolio-links">
-                            <a href="#"><i class="fas fa-link"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="public/BloodBank.png" alt="Project 3">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
                         </div>
+                        <div class="portfolio-info">
+                            <span class="project-category">MERN Stack</span>
+                            <h3>Blood Bank Management System</h3>
+                            <p>A web-based application designed to manage blood donation, storage, and distribution to patients in need.</p>
+                            <div class="tech-stack">
+                                <span>MongoDB</span>
+                                <span>Express.js</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                            </div>
+                            <a href="#" class="btn small-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="portfolio-item" data-category="other">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="/api/placeholder/400/300" alt="Project 4">
+                            <div class="portfolio-overlay">
+                                <div class="portfolio-links">
+                                    <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-info">
+                            <span class="project-category">UI/UX Design</span>
+                            <h3>E-Learning Platform Dashboard</h3>
+                            <p>A responsive dashboard design for an e-learning platform with course management and student tracking features.</p>
+                            <div class="tech-stack">
+                                <span>Figma</span>
+                                <span>HTML/CSS</span>
+                                <span>JavaScript</span>
+                                <span>Chart.js</span>
+                            </div>
+                            <a href="#" class="btn small-btn">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section gray-bg">
+        <div class="container">
+            <div class="section-heading">
+                <h6>Work History</h6>
+                <h2>Professional Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan 2025 - Present</div>
+                        <h3>Web Development Intern</h3>
+                        <h4>Digizura Technologies private limited</h4>
+                        <ul class="timeline-duties">
+                            <li>Currently developing the frontend for the new IT Audit module in OMP to streamline
+                                SOD/User conflict review workflows</li>
+                            <li>Designing and implementing five core screens: Upload & Initiate, Review
+                                Subordinate, Confirm Removal, Approve Retainment, and Summary, based on
+                                UI/UX specs and workflow diagrams</li>
+                            <li>Building responsive UI components such as dropdowns, tables, checkboxes, radio
+                                buttons, and file upload interfaces tailored for different user roles (Admin, IT Lead, IT
+                                Head, Reporting Manager)</li>
+                            <li>Coordinating closely with backend developers to align UI behavior with API responses
+                                and workflow triggers</li>
+                            <li>Ensuring accessibility, usability, and clean layout using modern UI practices and
+                                framework standards</li>
+                        </ul>
                     </div>
                 </div>
                 
@@ -176,115 +381,88 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience">
-        <div class="container">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Senior Web Developer</h3>
-                        <h4>TechCorp Inc. | 2022 - Present</h4>
-                        <p>Led a team of 5 developers in creating enterprise-level web applications. Implemented modern frameworks and improved code efficiency by 30%.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Full-Stack Developer</h3>
-                        <h4>WebSolutions | 2019 - 2022</h4>
-                        <p>Developed and maintained multiple client websites. Created custom CMS solutions and e-commerce platforms.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Junior Developer</h3>
-                        <h4>CreativeTech | 2017 - 2019</h4>
-                        <p>Assisted senior developers in front-end development tasks. Gained experience in responsive design and JavaScript frameworks.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section id="testimonials">
-        <div class="container">
-            <h2 class="section-title">Testimonials</h2>
-            <div class="testimonials-slider">
-                <div class="testimonial">
-                    <div class="testimonial-text">
-                        <p>"An exceptional developer who delivered our project ahead of schedule. The attention to detail and problem-solving abilities were impressive."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="/api/placeholder/80/80" alt="Client">
-                        <div>
-                            <h4>Sarah Johnson</h4>
-                            <p>CEO, TechStartup</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial">
-                    <div class="testimonial-text">
-                        <p>"Working with this developer was a pleasure. Communication was clear, and the final product exceeded our expectations."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <img src="/api/placeholder/80/80" alt="Client">
-                        <div>
-                            <h4>Michael Brown</h4>
-                            <p>Marketing Director, BrandCo</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
+            <div class="section-heading">
+                <h6>Let's Connect</h6>
+                <h2>Get In Touch</h2>
+            </div>
+            <div class="contact-wrapper">
                 <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h3>Location</h3>
-                            <p>New York City, NY</p>
+                    <h3>Let's talk about your project</h3>
+                    <p>I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Bangalore, Karnataka</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>mjakash2212@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+91 8608686357</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h3>Email</h3>
-                            <p>yourname@example.com</p>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h3>Phone</h3>
-                            <p>+1 (555) 123-4567</p>
+                    
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/akash-m-j-388318258" target="_blank">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Akash22mj" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://instagram.com/akash_mj45" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form">
                         <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" placeholder="Subject">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" placeholder="Enter subject">
                         </div>
                         <div class="form-group">
-                            <textarea placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                            <textarea id="message" placeholder="Enter your message" required></textarea>
                         </div>
-                        <button type="submit" class="btn">Send Message</button>
+                        <button type="submit" class="btn primary-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
                     </form>
                 </div>
             </div>
@@ -295,20 +473,59 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Your Name. All Rights Reserved.</p>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fas fa-envelope"></i></a>
+                <div class="footer-logo">
+                    <a href="#">AM<span>J</span></a>
+                    <p>Web Developer & Designer</p>
                 </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/akash-m-j-388318258" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/Akash22mj" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/akash_mj45" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://mail.google.com/mail/?view=cm&to=mjakash2212@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Akash M J. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
     <script>
-        // Simple portfolio filter functionality
+        // Navigation Toggle
         document.addEventListener('DOMContentLoaded', function() {
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            
+            navToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('show');
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(e) {
+                if (!navMenu.contains(e.target) && !navToggle.contains(e.target)) {
+                    navMenu.classList.remove('show');
+                }
+            });
+            
+            // Portfolio filter functionality
             const filterBtns = document.querySelectorAll('.filter-btn');
             const portfolioItems = document.querySelectorAll('.portfolio-item');
             
@@ -328,6 +545,44 @@
                             item.style.display = 'none';
                         }
                     });
+                });
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu after clicking a link
+                    navMenu.classList.remove('show');
+                });
+            });
+            
+            // Active menu item based on scroll position
+            const sections = document.querySelectorAll('section');
+            const navItems = document.querySelectorAll('.nav-menu a');
+            
+            window.addEventListener('scroll', () => {
+                let current = '';
+                
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    
+                    if (window.pageYOffset >= sectionTop - 200) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('href') === `#${current}`) {
+                        item.classList.add('active');
+                    }
                 });
             });
         });
